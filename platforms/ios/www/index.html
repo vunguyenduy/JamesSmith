@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <title></title>
+  
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css">
+
+    <link rel="stylesheet" href="css/gs.css">
+  
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="home">
+    <div>
+        <div>
+            <img class="gb-img" src="img/JamesCSmith.png" alt="image"/>
+        </div>
+        <div class="gb-name">
+            James C. Smith
+        </div>
+        <div class="gb-job">
+          President and CEO, Thomson Reuters
+        </div>
+
+        <div id="news" class="hlist">
+            
+        </div>
+    </div>
+
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top" class="bar-style">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Articles -->
+<div data-role="page" id="articles">
+    <div class="page-title">
+        <span class="title">Articles</span>
+    </div>
+    <ul id="articleList" data-role="listview" data-divider-theme="b" class="list">
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a16" data-transition="slide">
+                <div class="source">Start Ribune Business</div><div class="ar-date">Dec 10, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters Legal's top executive departs</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a17" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Dec 09, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters names new heads of legal, growth markets and IP</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a9" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Dec 09, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters Announces Business Leadership Appointments</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a15" data-transition="slide">
+                <div class="source">International Business Times</div><div class="ar-date">Oct 30, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters Layoffs Loom As CEO Jim Smith Gets Heckled For Insensitive Memo</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a18" data-transition="slide">
+                <div class="source">Crain's New York Business</div><div class="ar-date">Oct 30, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters spins the numbers</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a19" data-transition="slide">
+                <div class="source">Bloomberg</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters to Cut 3,000 Jobs to Focus on Growth Markets</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a10" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters beats Q3 Street view; net sales positive</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a7" data-transition="slide">
+                <div class="source">The Baron</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">JOB CUTS- 'DIFFICULT EARLY STEPS' - CEO JAMES SMITH</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a13" data-transition="slide">
+                <div class="source">Talking New Media</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters grows revenue, announces 3,000 positions to be eliminated</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a21" data-transition="slide">
+                <div class="source">CNBC</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters turns corner on Financial & Risk sales</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a22" data-transition="slide">
+                <div class="source">CNBC</div><div class="ar-date">Oct 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters's financial business turns corner</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a8" data-transition="slide">
+                <div class="source">NASDAQ</div><div class="ar-date">Oct 02, 2013</div><br/>
+                <div class="ar-title">MT Insider- Thomson Reuters Internal Video To Employees Suggests Further Cost Cutting Measures Needed</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a12" data-transition="slide">
+                <div class="source">AGENCE FRANCE PRESSE</div><div class="ar-date">Oct 02, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters CEO warns of ‘tough decisions’ ahead</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a20" data-transition="slide">
+                <div class="source">Walls Street Journal</div><div class="ar-date">Oct 01, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters to Review Business Units</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a1" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Oct 01, 2013</div><br/>
+                <div class="ar-title">CEO James Smith: TR stabilised, its credibility restored</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a6" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Aug 29, 2013</div><br/>
+                <div class="ar-title">JAMES SMITH’S VISION- THOMSON REUTERS 2.0</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a14" data-transition="slide">
+                <div class="source">theguardian.com</div><div class="ar-date">May 29, 2013</div><br/>
+                <div class="ar-title">Thomson Reuters hires Economist Group chief to head news agency arm</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a5" data-transition="slide">
+                <div class="source">Thomson Reuters</div><div class="ar-date">Apr 16, 2013</div><br/>
+                <div class="ar-title">James C. Smith, Thomson Reuters CEO and Marshall grad, to deliver commencement speech to undergraduates May 11</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a2" data-transition="slide">
+                <div class="source">Independent</div><div class="ar-date">Dec 03, 2011</div><br/>
+                <div class="ar-title">Breaking news: A new man at Reuters helm</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a3" data-transition="slide">
+                <div class="source">WV Gazette</div><div class="ar-date">Dec 03, 2011</div><br/>
+                <div class="ar-title">Former Daily Mail managing editor appointed chief of Thomson Reuters</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a11" data-transition="slide">
+                <div class="source">PAIDCONTENT</div><div class="ar-date">Dec 02, 2011</div><br/>
+                <div class="ar-title">Thomson Reuters CEO Glocer Is Out; COO James Smith Replaces Him</div>
+            </a>
+        </li>
+        <li data-theme="c" class="ar-bullet">
+            <a href="#a4" data-transition="slide">
+                <div class="source">Charleston Daily Mail</div><div class="ar-date">Dec 02, 2011</div><br/>
+                <div class="ar-title">Former Daily Mail managing editor named CEO of Thomson Reuters</div>
+            </a>
+        </li>
+    </ul>
+    
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--v1-->
+<div data-role="page" id="v1">
+    <a class="back arrow" href='#articles' data-transition="slide" onclick="stopCurrentVideo();">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Cardinal Health's Chairman & CEO George Barrett on Board Leadership
+    </div>
+    <div class="a-body">
+        <video id="video1" style="width:300px" controls>
+            <source src="http://54.215.134.149:8080/file/getFile/g1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!--a1-->
+<div data-role="page" id="a1">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        CEO James Smith: TR stabilised, its credibility restored
+    </div>
+    <div class="a-body">
+        <img class="imageStyle" src="http://www.thebaron.info/news/files/screen-shot-2013-04-20-at-19.37.20.png" width="233" height="233" />
+        <p>Thomson Reuters chief executive </p>
+
+        <p>James Smith, pictured, said on Tuesday the business had been stabilised and credibility restored since he took over in January 2012 and the company is now ready to turn the page to the next chapter of its evolution.<br /></p>
+
+        <br />&ldquo;Our foundation has been strengthened. Our credibility has been restored. We&rsquo;ve planted stronger roots in emerging markets. Our financial business has been put on a course to thrive, not just to survive,&rdquo; he said in a video message to the group&rsquo;s 60,000 employees.<br />
+
+        <br />In a world of sweeping changes, customers need Thomson Reuters to be more responsive and to innovate faster than ever before. &ldquo;To do that effectively, we need to change. We need to change some of the ways we behave inside the company. We need to simplify our business. We need to respond to opportunities more quickly. We need to better align resources behind our most promising growth opportunities. We need to do a better job of sharing resources across the organisation. And we need to attack internal bureaucracy once and for all.&rdquo;<br />
+
+        <br />Announcing the appointment of </span>
+
+        <p> Neil Masterson</p>
+
+        <p>, who leads the Financial & Risk division&rsquo;s investors&rsquo; business, to the corporate team as full-time chief transformation officer, Smith said there would be &ldquo;a broad-based dialogue to help us shift from a portfolio of businesses to a true enterprise that is focused on innovating for our customers...<br /> 
+
+        <br />&ldquo;I don&rsquo;t for one minute think that this will be easy,&rdquo; Smith said. &ldquo;I know we&rsquo;ll have to take many tough decisions to redirect our efforts toward our future potential. What got us here simply won&rsquo;t get us there. But our rich heritage allows us to build from a position of strength. No-one is better positioned to help professionals navigate the information age by connecting professional communities, supporting innovation, and discovering and powering global commerce. No-one is better positioned to provide our customers with unrivaled operating systems and work-flow tools built on the back of trusted, authoritative and relevant intelligence.&rdquo;<br />
+
+        <br />He added: &ldquo;We aspire to nothing less than redefining the intersection of information and technology. And that opportunity is well within our grasp.&rdquo;<br />
+
+        <div class="gray-header">Published</div>
+        Oct 01, 2013
+        <div class="gray-header">Sources</div>
+        Thomson Reuters
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a2-->
+<div data-role="page" id="a2">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Breaking news: A new man at Reuters helm
+    </div>
+    <div class="a-body">
+        <img src="http://www.independent.co.uk/incoming/article6271456.ece/ALTERNATES/w620/Pg-49-Reuters-graphic.jpg" width="90%">
+
+        <p> HUNTINGTON, W.Va. - Tom Glocer will step down as chief executive of Thomson Reuters at the end of this year as Canada's Thomson family ousts the last Reuters figure from the top ranks of the company they bought in 2008.</p>
+
+        <p>Mr Glocer will be replaced at the top of the news and business information company by James Smith, a Thomson veteran who was made chief operating officer in September. Before that promotion, Mr Smith ran the Thomson professional information business, whose growth made up for stagnant performance at the markets unit which made up of former Reuters' operations.</p>
+
+        <p>The blow to Mr Glocer will be softened by a potential payout of pay and shares worth about $38m (£24m). The company declined to comment on severance terms for Mr Glocer, who earned more than $55m in the last three years.</p>
+
+        <p>Mr Glocer said: &quot;By the end of this year, the organisational, strategy and budget work I have been leading will be complete, and the transition plan I launched last summer will have achieved its objectives. Jim Smith is a very talented executive with whom I have worked closely over the past four years. He is ready to lead Thomson Reuters.&quot;
+        </p>
+        <p>Thomson Reuters' share price had fallen by about a third since February before yesterday's announcement and the Thomson family had become impatient with Mr Glocer's slow progress in turning round the markets business.</p>
+
+        <p>Mr Glocer is credited with saving Reuters, which appeared set to go bust when he took over 11 years ago. The UK company suffered disastrous sales of data terminals in the wake of the dot-com crash and after underestimating competition from US rival Bloomberg.</p>
+
+        <p>The former mergers and acquisitions lawyer joined Reuters as deputy general counsel in the US in 1993. He was a surprise choice as chief executive because he was the first American and first non-journalist to head the company in its 150 years. He axed more than 3,000 jobs and, helped by a resumption of the market boom, revived Reuters' share price from less than 100p in 2003 to agree a 692p-a-share takeover by Thomson in May 2007.</p>
+
+        <p>David Thomson, chairman of Thomson Reuters, said: &quot;Tom will be remembered as the individual who turned around Reuters 10 years ago.&quot;</p>
+
+        <p>Mr Glocer stayed on as chief executive of the merged company which combined Reuters' data and news service, aimed at financial investors and traders, with Thomson's information products for lawyers, accountants and other professions. Since the merger, agreed just before the financial crisis, the professional division has consistently outperformed the markets business. Mr Glocer has announced several reorganisations and management shake-ups aimed at addressing the markets business's problems. In July he ousted Devin Wenig, who ran the operation and, who as Mr Glocer's former protege, had been seen as a potential chief executive.</p>
+
+        <p>After Mr Wenig's departure, Mr Glocer took direct control of the markets business in a bid to fix the lacklustre performance of the flagship Eikon. The promotion in September of Mr Smith, an ex-journalist who joined Thomson in 1987, marked him out as a possible replacement for Mr Glocer. At the time, Mr Glocer said: &quot;He's always been in the frame as far as I'm concerned.&quot;</p>
+
+        <p>Mr Smith's promotion and Mr Glocer's removal complete the swallowing up by Thomson of Reuters. The UK firm was established in 1851 by Paul Julius Reuter and broke the news in Europe of Lincoln's assassination in 1865.</p>
+        <p>In the third quarter of this year, sales at the professional division, which includes the legal publisher Sweet &amp; Maxwell, jumped 10 per cent while markets revenue rose just 1 per cent.</p>
+
+        <p>The Thomson family's Woodbridge Company owns about 55 per cent of Thomson Reuters, which is publicly listed in New York and Toronto after abandoning its London listing.</p>
+
+        <p>Thomson began with one Canadian newspaper in the 1930s and expanded to own The Times, The Sunday Times and The Scotsman before selling its UK papers to concentrate on professional and academic information.</p>
+
+        <p>The Canadian company's ability to transform itself and jettison outdated operations without sentiment was a stark contrast to Reuters' bureaucratic structure and failure to spot the threat to its business model posed by Bloomberg's aggressive expansion.</p>
+
+        <p>Thomson Reuters said it was sticking to the business outlook it issued with its third-quarter results a month ago, excluding costs of its management restructure announced yesterday.</p>
+
+        <p>A spokesman declined to discuss what the charges could cover.</p>
+
+        <p><u>New Head Boy: James Smith</u> </p>
+
+        <p>
+
+        <em>James Smith, who is set to take over from Tom Glocer in January, is a Thomson veteran who started his career writing copy and last year made a tidy $2.4m in salary and bonus.</em>
+        </p>
+
+        <p>
+        <em>This marks a second promotion in three months for the 52-year-old. He was appointed chief operating officer at the end of September following his role as running the company's professional division which oversees data for industries including legal, tax and accounting.</em>
+        </p>
+
+        <p>
+        <em>His association with the company stretches back to 1987 when he joined the Thomson Newspaper group after several years as a journalist.</em>
+        </p>
+
+        <p>
+        <em>The Marshall University graduate worked in several staff and operating positions at the Canadian group, and it led to his taking over the US operations of the newspaper arm and later his appointment as chief operating officer.</em>
+        </p>
+
+        <p><em>When the whole division was sold off at the turn of the century, he went in house with Thomson Corporation. In 2005 he was put in charge of the group's academic publishing division.</em>
+        </p>
+
+        <p>
+        <em>His move to chief operating officer was part of a move by the company to overhaul the structure of the group. Mr Smith will take over as chief executive of the group on January 1 and will set about streamlining the group.</em>
+        </p>
+        <div class="gray-header">Published</div>
+        Dec 03, 2011
+        <div class="gray-header">Source</div>
+        <div>Independent</div>
+        <div>http://www.independent.co.uk</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a3-->
+<div data-role="page" id="a3">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Former Daily Mail managing editor appointed chief of Thomson Reuters
+    </div>
+    <div class="a-body">
+        <p>CHARLESTON, W.Va. -- Marshall University graduate and former Charleston&nbsp;Daily Mail&nbsp;managing editor James C. Smith, chief operating officer at Thomson Reuters Corp., will become chief executive officer of the company Jan. 1.</p>
+
+        <p>The company that calls itself &quot;the world&#39;s leading source of intelligent information for businesses and professionals&quot; has been going through a reorganization that will land Smith at the head of the company, according to Friday&#39;s issue of The Wall Street Journal. </p>
+
+        <p>Besides its business news service, Thomson owned many newspapers, including several in West Virginia. Smith was managing editor at the Charleston Daily Mail in 1987 when Thomson bought that newspaper. Before he became managing editor, he worked as a reporter at several smaller papers.</p>
+
+        <p>According to Smith&#39;s profile on Thomson Reuters&#39; Web page, Smith continued with Thomson and held various jobs until 2000 when the Thomson Newspaper Group was sold. In 2001, he became executive vice president of The Thomson Corp. Smith, 51, lives in Connecticut.</p>
+
+        <p>In the days before computers, Thomson derived a large percentage of its company profits from the sales of the Physicians&#39; Desk Reference. The PDR, as it was commonly known, provided doctors a quick reference for every medication. Now in the electronic age, the company also provides electronic reference materials about pharmaceuticals to medical professionals.</p>
+
+        <p>Friday&#39;s Wall Street Journal said company officials were unhappy with current CEO Thomas Glocer because the company continued to lose ground in its financial data business as well as value in its stock price. Thomson Reuters is in competition with Bloomberg News.</p>
+
+        <p>All types of media are trying to find a profitable path as media moves heavily to the Internet. Peter Osnos, vice president of the Columbia Journalism Review, said, &quot;With so much uncertainty elsewhere in the news business, the robust competition between Thomson Reuters and Bloomberg looms especially large in the overall future of news gathering. With thousands of reporters and strong leadership teams, both companies are bound to be factors in the news business in the digital age, even if their overwhelming profitability is tied to financial data.&quot;</p>Thomson traces its lineage back to Lord Kenneth Thomson, 2nd Baron Thomson of Fleet. </p>
+
+        <p>CHARLESTON, W.Va. -- Marshall University graduate and former Charleston&nbsp;Daily Mail&nbsp;managing editor James C. Smith, chief operating officer at Thomson Reuters Corp., will become chief executive officer of the company Jan. 1.</p>
+
+        <p>The company that calls itself &quot;the world&#39;s leading source of intelligent information for businesses and professionals&quot; has been going through a reorganization that will land Smith at the head of the company, according to Friday&#39;s issue of The Wall Street Journal. </p>
+
+        <p>Besides its business news service, Thomson owned many newspapers, including several in West Virginia. Smith was managing editor at the Charleston Daily Mail in 1987 when Thomson bought that newspaper. Before he became managing editor, he worked as a reporter at several smaller papers.</p>
+
+        <p>According to Smith&#39;s profile on Thomson Reuters&#39; Web page, Smith continued with Thomson and held various jobs until 2000 when the Thomson Newspaper Group was sold. In 2001, he became executive vice president of The Thomson Corp. Smith, 51, lives in Connecticut.</p>
+
+        <p>In the days before computers, Thomson derived a large percentage of its company profits from the sales of the Physicians&#39; Desk Reference. The PDR, as it was commonly known, provided doctors a quick reference for every medication. Now in the electronic age, the company also provides electronic reference materials about pharmaceuticals to medical professionals.</p>
+
+        <p>Friday&#39;s Wall Street Journal said company officials were unhappy with current CEO Thomas Glocer because the company continued to lose ground in its financial data business as well as value in its stock price. Thomson Reuters is in competition with Bloomberg News.</p>
+
+        <p>All types of media are trying to find a profitable path as media moves heavily to the Internet. Peter Osnos, vice president of the Columbia Journalism Review, said, &quot;With so much uncertainty elsewhere in the news business, the robust competition between Thomson Reuters and Bloomberg looms especially large in the overall future of news gathering. With thousands of reporters and strong leadership teams, both companies are bound to be factors in the news business in the digital age, even if their overwhelming profitability is tied to financial data.&quot;</p>
+
+        <p> Thomson traces its lineage back to Lord Kenneth Thomson, 2nd Baron Thomson of Fleet.</p>
+
+        <div class="gray-header">Published</div>
+        Dec 03, 2011
+        <div class="gray-header">Source</div>
+        <div>WV Gazette</div>
+        <div>http://www.wvgazette.com/</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a4-->
+<div data-role="page" id="a4">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Former Daily Mail managing editor named CEO of Thomson Reuters
+    </div>
+    <div class="a-body">
+        <p>Thomson Reuters Corp. (TRI), the financial news and information provider, named James Smith to replace Chief Executive Officer Tom Glocer, who will retire after leading the company since its creation in a 2008 merger. </p>
+
+        <p> Smith, 52, will become CEO on Jan. 1, the New York-based company said yesterday in a statement. He was elevated to chief operating officer in a September restructuring after running the professional division that includes the Westlaw legal database and Checkpoint tax-information service. </p>
+
+        <p> Glocer's departure follows a 27 percent decline in Thomson Reuters shares this year in Canadian trading. Last month, the 52-year-old Glocer discussed working with Smith, his new COO, in 2012 and said he was confident in restructuring moves at the markets division, which makes up more than half of sales. </p>
+
+        <p> &quot;The management change suggests that the improvements are not coming fast enough to please the board,&quot; Claudio Aspesi, a London-based analyst for Sanford C. Bernstein, said via phone today. &quot;The decline in the share price and the sense that the market division was encountering headwinds that had not been fully anticipated was of concern.&quot; </p>
+
+        <p> Thomson Reuters rose 0.5 percent to the equivalent of C$27.49 in German trading as of 10:34 a.m. in Frankfurt. Yesterday, the stock declined 1.4 percent to C$27.22 in Toronto. </p>
+
+        <p> Bloomberg LP, the parent of Bloomberg News, competes with Thomson Reuters in selling financial and legal information and trading systems. </p>
+
+        <p> Glocer, 52, was CEO of Reuters Group Plc before its 8.7 billion pound ($17 billion) acquisition by Thomson Corp. and stayed to run the combined company. He will also leave the board of Thomson Reuters at year-end, the company said.</p>
+
+        <p> Thomson Reuters shares have fallen 25 percent since the deal was completed in April 2008. The company posted a 38 percent increase in third-quarter profit, driven by revenue growth at its legal-information and tax units. </p>
+
+        <p> &quot;I want you to know that we will be satisfied with nothing less than all of our units performing at their best,&quot; Glocer said on the Nov. 1 earnings conference call. &quot;We&#39;ve begun to deliver on our plan to achieve this.&quot; </p>
+
+        <p>Glocer restructured the markets division, which provides financial news and data, in July and told investors on Nov. 1 that he expected improved sales performance in 2012, which would lead to revenue growth in 2013 in the business. </p>
+
+        <p> &quot;On July 28, I told you that I take firm leadership for our markets division and put it back on track for success,&quot; Glocer said on the Nov. 1 call. </p>
+
+        <p> Revenue in the professional division rose 10 percent in the third quarter while markets sales increased 1 percent. </p>
+
+        <p> Smith, who began his career as a journalist, rose through the ranks at the Charleston (W.Va.) Daily Mail and left as managing editor in 1987 to join Thomson Corp.</p>
+
+        <p> He was put in charge of its academic publishing division in 2005. His promotion in September was part of a plan to merge the Markets and Professional units. </p>
+
+        <p> &quot;Smith seems to bring what the company probably needs most, which is a very strong eye toward execution,&quot; Sanford C. Bernstein&#39;s Aspesi said. </p>
+
+        <p> Devin Wenig, who ran the division that oversees the Reuters news unit and was seen as a possible successor to Glocer, left the company in July to become president of EBay Inc. (EBAY)&#39;s Marketplaces division. </p>
+
+        <p> Woodbridge Co., the  investment company controlled by the Thomson family, owned (TRI) a 55 percent stake in Thomson Reuters as of November, according to data compiled by Bloomberg. </p>
+
+        <div class="gray-header">Published</div>
+        Dec 02, 2011
+        <div class="gray-header">Source</div>
+        <div>Charleston Daily Mail </div>
+        <div>http://www.charlestondailymail.com/ </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a5-->
+<div data-role="page" id="a5">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        James C. Smith, Thomson Reuters CEO and Marshall grad, to deliver commencement speech to undergraduates May 11
+    </div>
+    <div class="a-body">
+        <p><img src="http://muphotos.marshall.edu/NewsPhotos-4/News-Photos/i-M2ZZc3L/0/S/JamesCSmith-S.jpg" align="left" hspace="10" vspace="10">
+
+        <p>HUNTINGTON, W.Va. – James C. Smith, president and chief executive officer of Thomson Reuters, will deliver the keynote address at Marshall University’s 176th commencement Saturday, May 11, at the Big Sandy Superstore Arena in downtown Huntington.</p>
+
+        <p>Smith, a native of Carlisle, Ky., is a 1981 graduate of Marshall, which he attended on a football scholarship. He will speak at the 9 a.m. commencement for undergraduates. Commencement for graduate students begins at 2 p.m. that same day at the arena.</p>
+
+        <p>“It’s humbling, absolutely humbling, and gratifying at the same time,” Smith said of being selected to not only speak at commencement, but to receive an honorary doctoral degree of humane letters from the university.</p>
+
+        <p>Smith leads a company of 60,000 people in 140 countries who provide critical news, information and technology to leading decision makers around the world. The company’s products primarily serve professionals in the legal, regulatory and financial markets and reported revenues of $12.8 billion in 2012.</p>
+
+        <p>Smith is a member of the International Business Council of the World Economic Forum and the board of directors of the Brazil-U.S. Business Council. He also serves on the international advisory boards of British American Business and the Atlantic Council.</p>
+
+        <p>“We are extremely honored and excited to welcome Jim Smith, a true son of Marshall, back to Marshall to address our graduates,” Marshall President Stephen J. Kopp said. “He is someone who took what he learned at Marshall, both in and outside the classroom, and applied it to his own life and career as he climbed the ladder of success in the business world. He grew up in a small town in Nicholas County, Kentucky, and now is CEO of this multi-billion dollar, multinational media and information firm based in New York City, traveling the world on behalf of its business interests. I am certain his commencement message on May 11th will be very insightful and motivating for our graduates.”</p>
+
+        <p>Smith’s football career at Marshall was cut short by knee injuries in each of his first two years, but he still enjoyed a full, engaging college experience. He stayed involved with the football program, serving as a student assistant on Coach Sonny Randle’s staff. He also was active in student affairs and participated in the university’s honors program before graduating magna cum laude. He was and remains a good friend of Mike Hamrick, Marshall’s director of athletics, who was his teammate for a while at Marshall.</p>
+
+        <p>“Marshall was great to me,” Smith said. “I loved the environment, I loved learning. I loved discovering that I loved learning. The environment there was just perfect for me. It was big enough to offer everything but small enough that you could actually have relationships with the professors.”</p>
+
+        <p>Except for the 1970 plane crash, Smith said he knew nothing about Marshall before being recruited to play football. But he accepted the scholarship – which he continued to receive until graduating, despite not playing – and never regretted choosing Marshall.</p>
+
+        <p>“I absolutely loved the classroom environment at Marshall,” he said. “Sitting in class was life changing for me.”</p>
+
+        <p>Smith began his career as a journalist and was managing editor of the Charleston Daily Mail when it was acquired by Thomson Newspapers in 1987. He rose through the ranks at Thomson Newspapers to become responsible for operations in North America.</p>
+
+        <p>Following the divesture of Thomson’s newspaper business in 2000, Smith moved to the professional publishing side of the company where he was responsible for a number of businesses serving the legal, regulatory and academic markets. </p>
+
+        <p>He also served as global head of Human Resources before becoming Chief Operating Officer of The Thomson Corporation. Following the acquisition of Reuters in 2008, Smith ran the professional division of the combined company. He was named chief executive in January 2012.</p>
+
+        <p>“I don’t really feel successful; I’m engaged,” he said. “I’m very fortunate to have a job that I love and to be engaged in something worthwhile. I’ve been very fortunate to work with a lot of great people and to wind up in a company where teamwork is valued. We can be very proud of what we do.”</p>
+
+        <p>He also is very proud of Marshall.</p>
+
+        <p>“Marshall is a special place,” Smith said. “It really opens the door to lifelong learning. It can change lives, profoundly. It certainly did mine. I didn’t know I loved learning. It defines who I am.”</p>
+
+        <p>In his current position, Smith spends much of his time traveling, often to other countries. He splits time among offices in New York, London and Stamford, Conn., where he and his wife, Pam Kushmerick, maintain their home. He has four sons.</p>
+
+        </p>
+
+        <div class="gray-header">Published</div>
+        <div>Apr 16, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>Thomson Reuters</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a6-->
+<div data-role="page" id="a6">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        JAMES SMITH’S VISION: THOMSON REUTERS 2.0
+    </div>
+    <div class="a-body">
+        <p>
+        Thomson Reuters is to shift focus from acquisition activity to organic growth, according to an internal account of chief executive James Smith’s recent meetings with regional managers.</p>
+
+        <img src="http://www.thebaron.info/news/files/screen-shot-2012-11-02-at-12.01.07.png" width="191" height="188" />
+        <p>
+        “Putting customers first, delivering the solutions they need most and going to market as a unified enterprise: that’s how Thomson Reuters Chief Executive Officer (CEO) Jim Smith envisions the next generation of our business,” said a message posted on the Hub internal communications system following meetings in Buenos Aires and São Paulo earlier this month.</p>
+
+        <p>“He described how over the next few years we’ll strive to build a culture where innovation flourishes,” according to the account seen by The Baron.</p>
+
+        <p>“Current pockets of excellence will be replicated consistently across the organization and we’ll learn from other industries’ best practices. Jim termed this evolution 'Thomson Reuters 2.0’, and referred to GGO’s LatAm region as a place where this forward-thinking culture is already taking shape.” GGO – Global Growth & Operations – was implemented in 2012 to strengthen the company’s resources and provide information solutions for emergent economies. </p>
+
+        <p>“Thomson Reuters 2.0 is about organic growth and being more customer-intimate,” Smith told the managers. “It is a larger market-share version of the company we have today, which we’ll create by being smarter about what it means to be part of an enterprise that does not operate in silos.</p>
+
+        <p>“He also talked about a strategic de-emphasis on acquisition activity with a shift to focus on organic growth as being hallmarks of this next stage for Thomson Reuters.”</p>
+
+        <p>Smith, pictured, was asked what type of leader this organization would need. His answer, the internal report said, was: “We want to bring in people who are curious, honestly seeking the right answer, and able to park their egos at the door to collaborate and do what’s right for the customer and the organization.”</p>
+
+        <div class="gray-header">Published</div>
+        <div>Aug 29, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Thomson Reuters</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a7-->
+<div data-role="page" id="a7">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        JOB CUTS: 'DIFFICULT EARLY STEPS' - CEO JAMES SMITH
+    </div>
+    <div class="a-body">
+        <img src="http://www.thebaron.info/news/files/screen-shot-2013-05-29-at-14.23.47.png" width="464" height="88" />
+
+        <p>Thomson Reuters CEO </p>
+
+        <p>James Smithannounced a further 3,000 job cuts on Tuesday and told the group&rsquo;s 60,000 employees some of the early steps in its evolution into &ldquo;a platform company&rdquo; will be difficult. </p>
+
+        A memo circulated throughout the company said: &ldquo;We will eliminate approximately 3,000 positions as we continue to reduce product and operational complexity across our company. And we will focus our resources on supporting front-line teams on the ground in markets with the greatest potential for growth.&rdquo;<br />
+
+        <br />Smith said the group&rsquo;s Financial business was back on a solid footing, and &ldquo;it is time to press the accelerator and take Thomson Reuters to the next level of performance&rdquo;. &ldquo;How do we go from &lsquo;good to great&rsquo;? How do we deliver an even stronger value proposition to our customers? How do we build on our recent success and unlock the incredible talent inside this company? How do we improve our speed to market? How do we build even greater value for all our stakeholders?<br />
+
+        <br />&ldquo;The answer is to accelerate our evolution into a platform company &ndash; one that delivers to customers not just a portfolio of products, but the power of our entire enterprise. We have made progress on that front, but there&rsquo;s still much to be done. To take the next step, today we set aside funding to further accelerate the transformation of our Financial business and to better align resources to our most promising opportunities.&rdquo;<br /><br />Smith said the first priority would be to help the people impacted by the moves to find alternative jobs. &ldquo;These are tough decisions that we do not take lightly. But I thoroughly believe these steps are necessary to position our organization to thrive for years to come.&rdquo;<br />
+
+        <br />He spoke of &ldquo;a new chapter in our company&rsquo;s evolution&rdquo; but cautioned: &ldquo;Some of the early steps in our journey will be difficult. We won&rsquo;t get there overnight. But I assure you &ndash; we&rsquo;re on a journey well worth taking.&rdquo;<br />
+
+        <br />Following is the full text of Smith&rsquo;s memo titled &ldquo;Third-quarter earnings and next steps&rdquo;:
+
+        <p>"Dear Colleagues,
+
+        At the beginning of the month, I thanked you for all the work that has gone into building a solid foundation for our future success. Today, you can see the proof in our third-quarter performance.<br /><br />I was particularly pleased to report that our Financial business achieved positive net sales for the first time in more than two years. This represents an important milestone in returning our Financial business to a growth footing. And it was one of several milestones achieved during the quarter.<br />
+
+        <br />As of this month, more than 100,000 Eikons have been installed on customers&rsquo; desks.<br /><br />And finally, after years of talking about the need to replace our legacy Bridge Data Network, we migrated more than 17,000 Bridge users to Eikon and Elektron. I want to thank the teams who worked tirelessly to shut down Bridge on time and with minimal disruption to our customers.<br />
+
+        <br />This was the third major platform closure we&rsquo;ve completed this year, and each one was completed on-time and on-budget.<br />
+
+        <br />With our Financial business back on a solid footing, it is time to press the accelerator and take Thomson Reuters to the next level of performance. How do we go from &ldquo;good to great&rdquo;? How do we deliver an even stronger value proposition to our customers? How do we build on our recent success and unlock the incredible talent inside this company? How do we improve our speed to market? How do we build even greater value for all our stakeholders?<br />
+
+        <br />The answer is to accelerate our evolution into a platform company &ndash; one that delivers to customers not just a portfolio of products, but the power of our entire enterprise. We have made progress on that front, but there&rsquo;s still much to be done. To take the next step, today we set aside funding to further accelerate the transformation of our Financial business and to better align resources to our most promising opportunities.<br />
+
+        <br />We will eliminate approximately 3,000 positions as we continue to reduce product and operational complexity across our company,&rdquo; Thomson Reuters CEO James Smith told the group&rsquo;s 60,000 employees on Tuesday after announcing the group&rsquo;s third quarter earnings results.<br />
+
+        <br />And we will focus our resources on supporting front-line teams on the ground in markets with the greatest potential for growth.<br />
+
+        <br />As we make these changes, our first priority will be to help the people impacted by these moves to find alternative jobs. These are tough decisions that we do not take lightly. But I thoroughly believe these steps are necessary to position our organization to thrive for years to come.<br />
+
+        <br />As I said a few weeks ago, we are beginning a new chapter in our company&rsquo;s evolution. We&rsquo;ve created the footprint and assembled the assets we need to win. The success of Eikon, Elektron and our unified platform has turned the tide for our Financial business. Now is the time to take decisive action and build from this position of newfound strength.<br />
+
+        <br />Some of the early steps in our journey will be difficult. We won&rsquo;t get there overnight. But I assure you &ndash; we&rsquo;re on a journey well worth taking.<br />
+
+        <br />Thank you for your hard work and continued support.<br />
+
+        <br />Sincerely,<br />
+
+        <br />Jim Smith
+        Chief Executive Officer, Thomson Reuters
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>The Baron</div>
+        <div>http://www.thebaron.info</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a8-->
+<div data-role="page" id="a8">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        MT Insider: Thomson Reuters Internal Video To Employees Suggests Further Cost Cutting Measures Needed
+    </div>
+    <div class="a-body">
+        <p>As a backdrop, the Wall Street Journal, which is a subsidiary of News Corp (NWS), published an article on 10/1 regarding an internal video sent to employees by Thomson Reuters (TRI) CEO Jim Smith.</p>
+
+
+        <p>According to the article, Smith discussed the "...need to attack internal bureaucracy" and "...ample opportunity inside the business for us to continue to take costs out..." In response to the article, management of TRI had no comment.</p>
+
+        <p>It is worth noting that TRI's legacy Financial &amp; Risk (F&amp;R) systems are slated to be shut down while further operational efficiencies are likely in headcount and systems consolidation.</p>
+
+        <p>Areas of focus are in legacy "Legal" in addition to "Financial &amp; Risk" or F&amp;R. This implies that prior efforts at restructuring F&amp;R may not be going as well as expected given the need for further cuts.</p>
+
+        <p>Goldman Sachs, which has a neutral rating and a $37 price target on the stock, views this as a modest positive (potential for stronger EBITDA growth owing to additional expense reductions).</p>
+
+        <p>Recall that at the Communacopia Conference in September, Thomson Reuters CEO Smith indicated that demand is mixed from sell-side clients, although trends from buy-side customers are better.</p>
+
+        <p>Additionally, Smith noted that legacy shutdowns remain on schedule, and TRI is seeing 1.5% to 2.5% price increases on renewals. During Q&amp;A, when asked about a potential break-up of the company, he deflected, stating that it wasn't a focus.</p>
+
+        <p>On valuation, TRI trades at 10x next twelve-month earnings, which assumes 2% revenue growth and 30% EBITDA margins, per GS estimates.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 02, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>NASDAQ</div>
+        <div>http://www.nasdaq.com</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a9-->
+<div data-role="page" id="a9">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters Announces Business Leadership Appointments
+    </div>
+    <div class="a-body">
+        <p>New Presidents Named in Legal, Intellectual Property &amp; Science and Global Growth &amp; Operations</p>
+        <p>
+        NEW YORK, Dec. 9, 2013 /PRNewswire/ -- Thomson Reuters (TSX / NYSE: TRI), the world's leading source of intelligent information for businesses and professionals, today announced the following changes to its leadership team, effective January 1, 2014. </p>
+        <p>
+        Susan Taylor Martin has been appointed president of the company's Legal business; Basil Moftah has been appointed president of Intellectual Property &amp; Science; and Gonzalo Lissarrague has been appointed president of Global Growth &amp; Operations (GGO). </p>
+        <p>
+        "As our transformation gains momentum, I am confident these proven executives will guide us to increasing levels of success in the future," said James C. Smith, chief executive officer of Thomson Reuters. </p>
+        <p>
+        Ms. Taylor Martin is currently managing director of Thomson Reuters Legal in the UK and Ireland. She joined the company in 1993 and has held a variety of leadership roles within a number of businesses, including global head of Corporate Strategy at Reuters and president of Reuters Media. </p>
+        <p>
+        Mr. Moftah is currently managing director for the Middle East, Africa and Russia region of GGO and began his Thomson Reuters career in 1997. Since then, he also took time to complete an MBA program at Harvard and work for an external venture capital firm before rejoining the company in 2004 as head of Business Direct for EMEA. He has held a variety of leadership positions at the company over the last 10 years. </p>
+        <p>
+        Mr. Lissarrague is currently managing director of the Latin America region of GGO. He joined Thomson Reuters in 1991 and has held a variety of positions across the company, including marketing, editorial and electronic products, technology and sales. He has overseen the company's Latin America operations since 2010. </p>
+        <p>
+        As a result of these appointments, Mike Suchsland, the current president of Legal, Chris Kibarian, the current president of Intellectual Property &amp; Science, and Shanker Ramamurthy, the current president of GGO, will be transitioning out of the company. </p>
+        <p>
+        Mr. Smith continued, "Together with the rest of the senior leadership team at Thomson Reuters, I would like to congratulate Susan, Basil and Gonzalo on their appointments and take this opportunity to thank Mike, Chris and Shanker for all their dedication and contributions to our company's success over the years." </p>
+        <p>
+        Thomson Reuters today also reaffirmed its full-year business outlook for 2013 as stated in its third-quarter earnings announcement on October 29, 2013. </p>
+        <p>About Thomson Reuters </p>
+        <p>
+        Thomson Reuters is the world's leading source of intelligent information for businesses and professionals. We combine industry expertise with innovative technology to deliver critical information to leading decision makers in the financial and risk, legal, tax and accounting, intellectual property and science and media markets, powered by the world's most trusted news organization. With headquarters in New York and major operations in London and Eagan, Minnesota, Thomson Reuters employs approximately 60,000 people and operates in over 100 countries. Thomson Reuters shares are listed on the Toronto and New York Stock Exchanges (symbol: TRI). For more information, go to http://thomsonreuters.com. </p>
+
+        <div class="gray-header">Published</div>
+        <div>Dec 09, 2013</div>
+
+        <div class="gray-header">Sources</div>
+        <div>Thomson Reuters</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a10-->
+<div data-role="page" id="a10">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters beats Q3 Street view; net sales positive
+    </div>
+    <div class="a-body">
+        <p>Oct 29 (Reuters) - Thomson Reuters Corp said on Tuesday that net sales in its Financial &amp; Risk division turned positive for the first time since 2011.</p>
+        <p>The global news and information company reported that third- quarter ongoing revenue rose 2 percent before currency changes to $3.07 billion on strength in its Tax &amp; Accounting and Legal businesses.</p>
+        <p>On an adjusted basis, the company reported a profit of 48 cents per share, beating Wall Street expectations by 4 cents.</p>
+        <p>The company said it also planned to take a $350 million charge to accelerate a cost-saving strategy, primarily in the Financial &amp; Risk division.</p><p>Jim Smith, the Thomson Reuters chief executive, said in a statement the company has sold more than 100,000 Eikon desktops to date.</p>
+        <p>"Though we continue to expect challenging conditions in the coming quarters - particularly with the largest global banks - these are significant steps in returning our financial business to a growth footing," he said.</p>
+        <p>Smith had said he expected net sales in the Financial &amp; Risk division to turn positive in the second half of this year. Net sales strip out cancellations and is an important indicator because it lags revenue by about 12 months.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>Thomson Reuters</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a11-->
+<div data-role="page" id="a11">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters CEO Glocer Is Out; COO James Smith Replaces Him
+    </div>
+    <div class="a-body">
+        <p>Tom Glocer is stepping down as the CEO of Thomson Reuters (NYSE: TRI), and is getting replaced by James C. Smith, the business media company’s COO — a position he has only held for two months. After he steps down, Glocer will remain at the company through the first quarter 2012 to wind down various activities.</p>
+
+        <p>Glocer, who had been with Reuters since 1993, has been the CEO of Thomson Reuters since 2008, having taken the job of CEO of Reuters pre-merger in 2001. Before becoming CEO, Glocer ran the company’s news division was president of Reuters America.</p>
+
+        <p>The news came up as a breaking item earlier this evening on the Reuters technology home page itself; moments before that the New York Times (NYSE: NYT) posted a note anticipating the move.</p>
+
+        <p>The NYT article notes that Smith, who comes from the Thomson side of the family, had been with the company since 1987. He has a journalist background, and has overseen various editorial divisions for the company including legal, tax and healthcare business information.</p>
+
+        <p>This is the latest, and biggest, of the executive upheavals that have hit the company in the last several months as it has grappled to tighten up its business in the wake of reduced demand for some of its products. That has included the dissolution of separate marketing and professional units merging of the Markets and Professional divisions at the company (a move that had led to Smith being appointed as COO, as he had been CEO of the professional unit); as well as the departure of Chris Ahearn as president of Reuters Media. The move leaves a big question mark over whether this will finally put an end to the chops and changes at the company to set it on a more even keel, or whether there will be more to come.</p>
+
+        <p>Glocer’s ouster comes less than five months after the major restructuring of the troubled Markets division. The fallout from that change included the firing of 17-year Reuters veteran Devin Wenig and a half dozen other top execs. Wenig was also one of the architects of the integration of Thomson and Reuters after the merger three years ago.</P>
+
+        <p>Glocer had taken personal responsibility for the Markets division after Wenig was dismissed and he ultimately oversaw the dissolution of the Markets division after it was merged with the Professional unit.</p>
+
+        <p>What precipitated today’s change? It could be that the Thomson family, which controls 55 percent of Thomson Reuters’ stock, may have lost patience with Glocer’s turnaround plan: according to this Reuters article, Glocer saw recovery happening only in 2013.</p>
+
+        <p>The FT takes a more even tone with the change: it cites sources who say the decision to leave was mutual.</p>  
+
+        <p>Over the past few months, during quarterly earnings calls, Glocer has pleaded for more time in fixing the problems associated with the Markets division. Those problems are related to something that is largely out of any executive’s hands: staffing levels at securities firms have not returned to pre-recession levels and headcounts are expected to be reduced further in the fall.</p>
+
+        <p>As a result, there are few individual customers for the the division’s investment-related products like Eikon and Elektron. While the division will still be structured around those two products, sales has taken a hit, since the only option at the moment is to reduce and streamline. But it appeared that answer was not creative or quick enough for the Thomsons.</p>
+
+        <p>Another question that’s been hanging over Thomson Reuters has been the question of layoffs. Rumors have been circulating around the company about “thousands” of layoffs in the markets division, but sources say that is not accurate, arguing that in a company that employs 57,000 staffers around the world, there are always a constant “ebb and flow” of personnel depending on where the growth is. Still, it’s safe to say, given the trouble of products like Insider, the video offering, as well as Eikon, the “ebbs” have likely been focused there.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Dec 02, 2011</div>
+        <div class="gray-header">Sources</div>
+        <div>PAIDCONTENT</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a12-->
+<div data-role="page" id="a12">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters CEO warns of ‘tough decisions’ ahead
+    </div>
+    <div class="a-body">
+        <img src="http://www.capitalfm.co.ke/business/files/2013/10/THOMPSON.jpg" width="90%" />
+
+        <p>The 2,500 job cuts announced in mid-February were in the Financial and Risk division, which oversees the financial terminals/AFP</p>
+
+        <p>NEW YORK CITY, October 2- Thomson Reuters chief executive Tuesday warned employees of &#8220;tough decisions&#8221; ahead for the media and financial information group, which has already announced 2,500 layoffs since the beginning of the year.</p>
+
+        <p>CEO James Smith announced the appointment of a new &#8220;chief transformation officer,&#8221; Neil Masterson, to help direct the shifts planned for the British Canadian company.</p>
+
+        <p>&#8220;I know we&#8217;ll have to take many tough decisions to redirect our efforts toward our future potential,&#8221; Smith wrote in a letter to the company&#8217;s 60,000 salaried employees, extracts of which were published on the web site The Baron.</p>
+
+        <p>The web site includes former Reuters employees and focuses on company news.</p>
+
+        <p>&#8220;We need to simplify our business,&#8221; Smith said in the letter.</p>
+
+        <p>&#8220;We need to respond to opportunities more quickly. We need to better align resources behind our most promising growth opportunities,&#8221; he said.</p>
+
+        <p>&#8220;We need to do a better job of sharing resources across the organization. And we need to attack internal bureaucracy once and for all.&#8221;</p>
+
+        <p>Thomson Reuters is the parent company of the Reuters newswire, a competitor of AFP, but the company earns most of its revenues from financial terminals it provides in banks and trading floors and from the distribution of specialized financial and legal information.</p>
+
+        <p>The 2,500 job cuts announced in mid February were in the Financial and Risk division, which oversees the financial terminals.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 02, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>AGENCE FRANCE PRESSE</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a13-->
+<div data-role="page" id="a13">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters grows revenue, announces 3,000 positions to be eliminated
+    </div>
+    <div class="a-body">
+        <p>On the day they announced somewhat better than expected earnings and revenue, CEO Jim Smith told employees that 3,000 positions would be eliminated in order to &#8220;reduce product and operational complexity&#8221; across the company</p>
+
+        <p>NEW YORK, NY &#8211; October 29, 2013 – Thomson Reuters today reported results for the third quarter ended September 30, 2013. Revenues from ongoing businesses grew 2% (before currency) from the prior-year period to $3.1 billion. Adjusted EBITDA increased 4% from the prior-year period and the corresponding margin was 27.5% versus 26.5% for the third quarter of 2012. Underlying operating profit was up 3% and the corresponding margin was 17.8% versus 17.5% in the prior-year period.</p>
+
+        <p>Third-quarter adjusted earnings per share (EPS) were $0.48, unchanged from the prior-year period.</p>
+
+        <p>&#8220;Our third-quarter results confirm the positive momentum we are generating in the marketplace,&#8221; said James C. Smith, chief executive officer of Thomson Reuters.</p>
+
+        <p>&#8220;Our financial business recorded positive net sales for the first time since the second quarter of 2011. We have now installed more than 100,000 Eikon desktops to date,&#8221; said Smith. &#8220;I am also pleased that we crossed another milestone by migrating customers off our legacy Bridge Data Network, which was the third significant shutdown of a legacy platform this year.&#8221;</p>
+
+        <p>&#8220;Though we continue to expect challenging conditions in the coming quarters – particularly with the largest global banks – these are significant steps in returning our financial business to a growth footing.&#8221;</p>
+
+        <p>&#8220;Our improving track record on execution gives me the confidence to now move even faster in our transformation work,&#8221; said Smith. &#8220;We will pick up the pace of efforts to simplify and streamline our organization, to shift resources behind the most promising growth opportunities and to use every tool at our disposal to drive value creation for all our stakeholders.&#8221;</p>
+
+        <p><img src="http://www.talkingnewmedia.com/wp-content/uploads/2013/10/ThomReuters-chart1.jpg" width="90%"/></p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Sources</div>
+        <div>Talking New Media </div>
+        <div>Website: http://www.talkingnewmedia.com/</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a14-->
+<div data-role="page" id="a14">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters hires Economist Group chief to head news agency arm
+    </div>
+    <div class="a-body">
+        <p>Andrew Rashbass to leave publisher after 15 years, having led digital transformation from print to digital business</p>
+        <img src="http://static.guim.co.uk/sys-images/Media/Pix/pictures/2013/5/29/1369829289286/Andrew-Rashbass-008.jpg" width="460" height="276"/>
+        <p>Andrew Rashbass: the Economist Group chief is to head Thomson Reuters' news agency and media business. Photograph: Graham Turner for the Guardian</p>
+
+        <p>Andrew Rashbass, the chief executive of the Economist Group, is to join Thomson Reuters to take the newly-created role of chief executive of the Reuters news agency and media arm.</p>
+
+        <p>Rashbass, who has been with the publisher of the Economist for 15 years, has taken the top post at the Reuters news agency business slotting in above president and editor-in-chief Stephen Adler.</p>
+
+        <p>He has been widely credited with the continuing successful transition of the Economist, which is 50% owned by Financial Times owner Pearson, from a print- and advertising-reliant title to a multimedia product with a significant digital subscription base.</p>
+
+        <p>In the year to 31 March 2012 Rashbass was paid total remuneration of £1.05m, including a bonus of £470,000, for his efforts leading the group.</p>
+
+        <p>"Andrew's track record as chief executive of the Economist Group speaks for itself," said the Thomson Reuters chief executive, Jim Smith. "He brings to us a rare blend of commercial acumen, sensitivity to the best traditions of quality journalism and editorial integrity. And has a proven ability to build and lead great global business teams."</p>
+        <p>Rashbass, a former managing director of Economist.com who became chief executive in 2008, said that Reuters was well positioned to drive commercial growth.</p>
+
+        <p>"I am excited to be joining Reuters with its unmatched commitment to reporting with speed, accuracy, integrity and independence," said Rashbass. "As well as being, or in fact because they are, essential to Reuters journalism, these characteristics can also drive huge commercial success."</p>
+
+        <p>He will join Reuters at an unspecified date later this summer.</p>
+
+        <p>"We are delighted that someone of Andrew's commercial and human qualities has chosen to join our senior team," said the Thomson Reuters chairman, David Thomson. "Our family's commitment to news stretches back three generations. This key appointment underlines our passionate commitment to Reuters news. We are determined that Reuters news should not only fulfil its critical journalistic mission but also its potential in creating long-term value for our customers and shareholders."</p>
+
+        <p><em>•&nbsp;To contact the MediaGuardian news desk email media@guardian.co.uk or phone 020 3353 3857. For all other inquiries please call the main Guardian switchboard on 020 3353 2000. If you are writing a comment for publication, please mark clearly "for publication".</em></p>
+
+        <div class="gray-header">Published</div>
+        <div>May 29, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>theguardian.com</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a15-->
+<div data-role="page" id="a15">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters Layoffs Loom As CEO Jim Smith Gets Heckled For Insensitive Memo
+    </div>
+    <div class="a-body">
+        <p><img src="http://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/v2_article_large/public/2013/10/30/reuters.jpg" width="90%">
+
+        <p> HUNTINGTON, W.Va.– James C. Smith, president and chief executive officer of Thomson Reuters, will deliver the keynote address at Marshall University’s 176th commencement Saturday, May 11, at the Big Sandy Superstore Arena in downtown Huntington.</p>
+
+        <p>Smith, a native of Carlisle, Ky., is a 1981 graduate of Marshall, which he attended on a football scholarship. He will speak at the 9 a.m. commencement for undergraduates. Commencement for graduate students begins at 2 p.m. that same day at the arena.</p>
+
+        <p>“It’s humbling, absolutely humbling, and gratifying at the same time,” Smith said of being selected to not only speak at commencement, but to receive an honorary doctoral degree of humane letters from the university.</p>
+
+        <p>Smith leads a company of 60,000 people in 140 countries who provide critical news, information and technology to leading decision makers around the world. The company’s products primarily serve professionals in the legal, regulatory and financial markets and reported revenues of $12.8 billion in 2012.</p>
+
+        <p>Smith is a member of the International Business Council of the World Economic Forum and the board of directors of the Brazil-U.S. Business Council. He also serves on the international advisory boards of British American Business and the Atlantic Council.</p>
+
+        <p>“We are extremely honored and excited to welcome Jim Smith, a true son of Marshall, back to Marshall to address our graduates,” Marshall President Stephen J. Kopp said. “He is someone who took what he learned at Marshall, both in and outside the classroom, and applied it to his own life and career as he climbed the ladder of success in the business world. He grew up in a small town in Nicholas County, Kentucky, and now is CEO of this multi-billion dollar, multinational media and information firm based in New York City, traveling the world on behalf of its business interests. I am certain his commencement message on May 11th will be very insightful and motivating for our graduates.”</p>
+
+        <p>Smith’s football career at Marshall was cut short by knee injuries in each of his first two years, but he still enjoyed a full, engaging college experience. He stayed involved with the football program, serving as a student assistant on Coach Sonny Randle’s staff. He also was active in student affairs and participated in the university’s honors program before graduating magna cum laude. He was and remains a good friend of Mike Hamrick, Marshall’s director of athletics, who was his teammate for a while at Marshall.</p>
+
+        <p>“Marshall was great to me,” Smith said. “I loved the environment, I loved learning. I loved discovering that I loved learning. The environment there was just perfect for me. It was big enough to offer everything but small enough that you could actually have relationships with the professors.”</p>
+
+        <p>Except for the 1970 plane crash, Smith said he knew nothing about Marshall before being recruited to play football. But he accepted the scholarship – which he continued to receive until graduating, despite not playing – and never regretted choosing Marshall.</p>
+
+        <p>“I absolutely loved the classroom environment at Marshall,” he said. “Sitting in class was life changing for me.”</p>
+
+        <p>Smith began his career as a journalist and was managing editor of the Charleston Daily Mail when it was acquired by Thomson Newspapers in 1987. He rose through the ranks at Thomson Newspapers to become responsible for operations in North America.</p>
+
+        <p>Following the divesture of Thomson’s newspaper business in 2000, Smith moved to the professional publishing side of the company where he was responsible for a number of businesses serving the legal, regulatory and academic markets. </p>
+
+        <p>He also served as global head of Human Resources before becoming Chief Operating Officer of The Thomson Corporation. Following the acquisition of Reuters in 2008, Smith ran the professional division of the combined company. He was named chief executive in January 2012.</p>
+
+        <p>“I don’t really feel successful; I’m engaged,” he said. “I’m very fortunate to have a job that I love and to be engaged in something worthwhile. I’ve been very fortunate to work with a lot of great people and to wind up in a company where teamwork is valued. We can be very proud of what we do.”</p>
+
+        <p>He also is very proud of Marshall.</p>
+
+        <p>“Marshall is a special place,” Smith said. “It really opens the door to lifelong learning. It can change lives, profoundly. It certainly did mine. I didn’t know I loved learning. It defines who I am.”</p>
+
+        <p>In his current position, Smith spends much of his time traveling, often to other countries. He splits time among offices in New York, London and Stamford, Conn., where he and his wife, Pam Kushmerick, maintain their home. He has four sons.</p>
+        </p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 30, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>International Business Times</div>
+        <div>http://www.ibtimes.com</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a16-->
+<div data-role="page" id="a16">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters Legal's top executive departs
+    </div>
+    <div class="a-body">
+        <p>The top executive at Eagan-based Thomson Reuters Legal is leaving at the end of the month after two years on the job as part of an executive ­shuffle at the global business-and-legal media company.</p>
+          
+        <p>Mike Suchsland, president of Legal since 2011, is leaving New York-based Thomson Reuters along with the head of its intellectual property and science unit and its global growth and operations units.</p>
+
+        <p>Suchsland is believed to have been with Thomson Reuters for about 15 years, but the company declined to comment beyond the statement.</p>
+
+        <p>Thomson Reuters, which just announced global job cuts of about 3,000 people, is restructuring to improve ­financial performance.</p>
+
+        <p>Thomson Reuters CEO Jim Smith, who took over in January 2012, has been trying to streamline to improve profitability in a low-growth environment. A previous round of cuts, announced in February, trimmed about 4 percent of the workforce.</p>
+
+        <p>Eagan is headquarters of Thomson Reuters’ legal-publishing business that serves law firms and corporations with such publications as Westlaw. The company, which has about 7,000 employees in Eagan, has struggled with competition and amid cutbacks at law firms.</p>
+
+        <p>Thomson Reuters Legal saw its operating profit decline by 1 percent to $708 million for the first nine months of 2013 on revenue that increased by 3 percent to $2.48 billion. </p>
+
+        <p>Susan Taylor Martin has been appointed president of legal, to succeed Suchsland. However, it is unclear if she will move to the Eagan campus.</p>
+
+        <p>Taylor Martin is managing director of Thomson Reuters Legal in the UK and Ireland. She joined the company in 1993 and has held a variety of leadership roles within a number of businesses, including global head of corporate strategy at Reuters and president of Reuters Media, according to a prepared statement.</p>
+
+        <p>Thomson Reuters is believed to have cut several hundred jobs in the Twin Cities in recent years, but the company has declined to specify a number.</p>
+
+        <p>Neal St. Anthony • 612-673-7144</p>
+
+        <div class="gray-header">Published</div>
+        <div>Dec 10, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Start Ribune Business</div>
+        <div>http://www.startribune.com</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a17-->
+<div data-role="page" id="a17">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters names new heads of legal, growth markets and IP
+    </div>
+    <div class="a-body">
+        <p>NEW YORK - Dec 9 (Reuters) - Thomson Reuters Corp is replacing the senior executives overseeing three of its main businesses - legal, growth markets and intellectual property - as part of a wider reorganization aimed at boostinggrowth and trimming costs.</p>
+
+        <p>The news and information company said in a statement on Monday that Susan Taylor Martin will take over the Legal division, which represents more than a quarter of total revenue at Thomson Reuters.</p>
+
+        <p>Taylor Martin is currently managing director of Thomson Reuters Legal in the U.K. and Ireland, and has previously been head of corporate strategy at Reuters and president of the media business. She will succeed Mike Suchsland, who is leaving the company.</p>
+
+        <p>Gonzalo Lissarrague has been appointed president of Global Growth & Operations, an area that includes certain emerging markets, replacing Shanker Ramamurthy. Basil Moftah has been named president of the company's Intellectual Property & Science division, taking over from Chris Kibarian. Ramamurthy and Kibarian are also leaving the company.</p>
+
+        <p>All three appointments are effective Jan. 1, 2014, Thomson Reuters said in its statement.</p>
+
+        <p>Chief Executive Jim Smith said in the statement that the anagement changes were part of the company's "transformation."</p>
+
+        <p>A Thomson Reuters spokesman declined to comment beyond the news release.</p>
+
+        <p>Smith had announced in November a restructuring that included the elimination of some 3,000 positions, mainly in the Financial & Risk division, which serves banks and other financial institutions.</p>
+
+        <p>The company on Monday affirmed its full-year business outlook for 2013. It expects revenue this year to rise at a low single-digit percentage rate.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Dec 9, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Thomson Reuters</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a18-->
+<div data-role="page" id="a18">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters spins the numbers
+    </div>
+    <div class="a-body">
+        <p> homson Reuters' roots go back to 1851, when an enterprising German immigrant in London used telegraph wires and a flock of pigeons to send out market information. Clearly this is a company with a lot of experience conveying messages. Tuesday's was that times are hard and further restructuring is necessary.</p>
+
+        <p>"It is time to press the accelerator and take Thomson Reuters to the next level of performance," read a memo to employees from CEO Jim Smith, who then slipped into language sure to warm the hearts of management consultants everywhere. "How do we go from 'good to great'?" His answer: Let go 3,000 employees on top of the 2,500 who were cut earlier this year.</p>
+
+        <p>But then an important part of Thomson Reuters' message got muddled in a press release announcing the company's third quarter earnings. In that release, the company never quite got around to saying exactly how much less money it's making nowadays. That decline in fortunes is of course why so much blood-letting is underway.</p>
+
+        <p>Instead, the company described how "operating profit," revenues and diluted earnings per share were down. But the good news was "revenue from ongoing businesses" and "adjusted EBITDA" crept up. (EBITDA refers to earnings before interest, taxes, depreciation and amortization. "Adjusted EBITDA," as defined by Thomson Reuters, excludes those business expenses as well as software depreciation and amortization.)</p>
+
+        <p>The trouble with terms like "operating profit," "revenue from ongoing businesses," "EBITDA" or; ahem "adjusted EBITDA" is they don't have any particular meaning under generally accepted accounting principles. These are numbers that Thomson Reuters management has cobbled together to make results look better.</p>
+
+        <p>Companies do not have such leeway when they report net income, a term that has a specific meaning under GAAP. Many companies prefer to de-emphasize their bottom-line net results when they don't have such a pleasant story to tell. Twitter, for instance, prefers potential investors look at its "adjusted EBITDA" and overlook the fact that it's losing buckets of money under accounting rules. Management teams usually say they provide non-GAAP figures to provide a "more complete understanding" of their business. A Thomson Reuters spokesman said he's unaware of the company reporting earnings any differently from before.</p>
+
+        <p>Still, net income has to be reported in Securities and Exchange Commission filings, and there you'll find the results Thomson Reuters didn't seem to want to talk about. (Eagle-eyed investors can also find net figures in a document supplementing the company's earnings press release.)</p>
+
+        <p>It turns out the company had $271 million of net earnings attributable to shareholders last quarter, a 39% decline from the year-earlier period. That's pretty bleak compared to the 15% decline in "operating profit" disclosed in Thomson Reuters' earnings release, or the 4% increase in "adjusted EBITDA." Through the first nine months of the year, net earnings have dropped by 70%, while the rosier tint of "operating profit" shows a 36% decline and the world of "adjusted EBITDA" shows a 2% increase.</p>
+
+        <p>The puzzling thing is why Thomson Reuters chose to sugarcoat its results. After all, the company is slashing thousands of employees, so why not come out and just say how things really are? </p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 30, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Crain's New York Business</div>
+        <div>http://www.crainsnewyork.com</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a19-->
+<div data-role="page" id="a19">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters to Cut 3,000 Jobs to Focus on Growth Markets
+    </div>
+    <div class="a-body">
+        <p> Thomson Reuters Corp. (TRI) , a provider of news and information services, plans to cut 3,000 positions, or about 5 percent of the workforce, in a bid to focus on growth markets and boost profitability. </p>
+
+        <p>The announcement followed higher-than-projected  at Thomson Reuters, which is trying to rebound from a lingering slump on brought on by the financial crisis and recession. Excluding some items, the company posted profit of 48 cents a share for the third quarter. That beat the 44 cents estimated by analysts, according to data compiled by Bloomberg. </p>
+
+        <p>The job cuts will mainly affect the financial and risk division, the company’s biggest unit, and follow a move to eliminate 2,500 positions earlier this year. </p>
+
+        <p> Chief Executive Officer Jim Smith, who took the top job in January 2012, has been increasingly relying on cost cutting to improve profitability. The previous round of firings, announced in February, trimmed about 4 percent of the workforce. 
+        </p>
+
+        <p>“We will pick up the pace of efforts to simplify and streamline our organization, to shift resources behind the most promising growth opportunities,” Smith said today in a statement. </p>
+
+        <p>Thomson Reuters competes with Bloomberg News parent Bloomberg LP in selling financial data and news services. </p>
+
+        <img src="http://www.bloomberg.com/image/iQYHRXdSV.rY.jpg"/><p> Pedestrians walk outside the Thomson Reuters Corp. headquarters in New York. </p>
+        <p>The New York-based company also announced plans to buy back as much as $1 billion of its stock by the end of 2014. </p>
+
+        <h2>Stock Climbs </h2>
+
+        <p>Thomson Reuters rose as much as 3.2 percent to $36.88 in New York, the biggest intraday increase in more than seven months. The stock had already climbed 23 percent this year through yesterday. </p>
+
+        <p>Third-quarter net income attributable to common shareholders fell 39 percent to $271 million, or 33 cents a share, from $441 million, or 53 cents, a year earlier. Operating profit, which excludes one-time items and businesses that have closed, declined 15 percent to $316 million in the period. </p>
+
+        <p>The company said it has now installed more than 100,000 Eikon desktop terminals, which customers use to access market analysis and trading software. Thomson Reuters also has shifted clients away from its Bridge Data Network, allowing it to close its third legacy platform this year. </p>
+
+        <p>Revenue from ongoing businesses rose 2 percent to $3.07 billion. The company expects percentage growth in the low single digits this year, unchanged from an earlier estimate. </p>
+
+        <p>“Though we continue to expect challenging conditions in the coming quarters -- particularly with the largest global banks -- these are significant steps in returning our financial business to a growth footing,” Smith said. </p>
+
+        <p>To contact the reporter on this story: Edmund Lee in New York at elee310@bloomberg.net </p>
+
+        <p>To contact the editor responsible for this story: Nick Turner at nturner7@bloomberg.net </p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Bloomberg</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a20-->
+<div data-role="page" id="a20">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters to Review Business Units
+    </div>
+    <div class="a-body">
+        <p> Reuters plans a fresh review of the company's business units, in the latest sign the data provider is looking for ways to respond to weak demand from its financial services clients.</p> <p>In a video emailed to staff on Tuesday, Thomson Reuters Chief Executive  Jim Smith announced the review, to be led by  Neil Masterson, a longtime executive appointed to the new role of &quot;chief transformation officer&quot; within the company.</p> 
+
+        <img src="http://s.wsj.net/public/resources/images/MK-CG738_REUTER_G_20131001193440.jpg" alt="cat" width="553" height="369" >
+
+        <p>&quot;We need to better align resources behind our most promising growth opportunities.... We need to attack internal bureaucracy once and for all,&quot; Mr. Smith said on the video, warning that process will require Thomson Reuters to &quot;make many tough decisions.&quot;</p> 
+
+        <p>He didn't provide details, but described the review as a &quot;dialogue to help us shift from a portfolio of businesses to a true enterprise that is focused on innovating for our customers.&quot;</p> <p>Spokesmen for Thomson Reuters declined to comment.</p> 
+
+        <p>His comments appear to signal more cost cutting, something he alluded to at an investor conference last week. Then he said, &quot;there is ample opportunity inside the [Thomson Reuters] business for us to continue to take costs out for the foreseeable future and particularly in the near term.&quot; </p> 
+
+        <p>Mr. Masterson, a longtime executive at the company, is currently managing director of investors for Thomson Reuters and previously led the investment banking services division. </p> 
+
+        <p>Thomson Reuters has taken steps to cut costs this year, launching plans to eliminate 2,500 jobs from its core financial and risk division in February.</p> 
+
+        <p>More details are expected Wednesday, when Stephen Adler, president and editor in chief at Reuters, will address the company's news staff in a conference call, two people familiar with the matter said. The call has been billed as an &quot;editorial update&quot; where staff can ask questions.</p> 
+
+        <p>Thomson Reuters's financial and risk division has suffered in recent years as big bank clients reduced head count and amid struggles in various European economies. The company's Eikon financial desktop platform, launched in the wake of the financial crisis, has only recently shown signs of growth. Thomson Reuters had a total of around 61,000 Eikon desktops installed as of the end of the second quarter, up approximately 30% from a year earlier. </p> 
+
+        <p>Elsewhere within the company, Thomson Reuters told staff last week that it had abandoned a plan launched more than two years ago to improve its consumer-oriented news website, a project known as Reuters Next. The company cited missed deadlines and budget targets as reasons the project was canceled. </p> 
+
+        <p>The Wall Street Journal competes with Thomson Reuters on business news.</p> 
+
+        <p> Corrections &amp; Amplifications 
+
+        <br/> Thomson Reuters had a total of around 61,000 Eikon desktops installed as of the end of the second quarter, up approximately 30% from a year earlier. An earlier version of this article incorrectly said installed Eikon desktops totaled nearly 47,000 at the end of the second quarter. </p> 
+
+        <p> <strong>Write to </strong> William Launder at william.launder@wsj.com and Keach Hagey at keach.hagey@wsj.com </p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 01, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>Walls Street Journal</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a21-->
+<div data-role="page" id="a21">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters turns corner on Financial and Risk sales
+    </div>
+    <div class="a-body">
+        <p>Oct 29 (Reuters) - Thomson Reuters Corp said on Tuesday that net sales in its Financial &amp; Risk division turned positive for the first time since 2011.</p>
+        <p>The global news and information company reported that third- quarter ongoing revenue rose 2 percent before currency changes to $3.07 billion on strength in its Tax &amp; Accounting and Legal businesses.</p>
+        <p>Excluding special items, the company reported a profit of 48 cents per share, beating Wall Street expectations by 4 cents.</p>
+        <p>The company said it planned to take a $350 million charge to accelerate a cost-saving strategy, primarily in the Financial &amp; Risk division. It will eliminate about 3,000 positions.</p>
+        <p>Thomson Reuters Chief Executive Officer Jim Smith said in a statement that the company had sold more than 100,000 Eikon desktops to date.</p>
+        <p>"Though we continue to expect challenging conditions in the coming quarters - particularly with the largest global banks - these are significant steps in returning our financial business to a growth footing," he said.</p>
+        <p>Smith had said he expected net sales in the Financial &amp; Risk division to turn positive in the second half of this year. Net sales, which strip out cancellations, are an important indicator because they lag revenue by about 12 months.</p>
+        <p>The company also announced plans to make contributions of about $500 million to its U.S. and UK defined benefit pension plans this quarter.</p>
+        <p>Operating profit for the third quarter was flat with a year earlier at $548 million before currency changes.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>CNBC</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--a22-->
+<div data-role="page" id="a22">
+    <a class="back arrow" href='#articles' data-transition="slide">
+        Back
+    </a>
+    <img class="gb-ct-img" src="img/JamesCSmith.png" alt="image"/>
+    <div class="d-title">
+        Thomson Reuters's financial business turns corner
+    </div>
+    <div class="a-body">
+        <p>Oct 29 (Reuters) - Thomson Reuters Corp said on Tuesday that net sales in its financial business turned positive for the first time since 2011 and announced 3,000 job cuts aimed at streamlining the global news and information company.</p>
+
+        <p>Logging positive net sales is an important milestone for Thomson Reuters because it shows new sales outpaced cancellations in the Financial & Risk division, which serves banks and financial institutions. Since subscriptions are signed on an annual basis, net sales are a key indicator for future revenue.</p>
+
+        <p>"The era of portfolio churning has come to an end," Thomson Reuters Chief Executive Officer Jim Smith said in an interview.</p>
+
+        <p>Shares of Thomson Reuters were up 2.1 percent at $36.50 in early trading in New York.</p>
+
+        <p>The company announced a $350 million charge to accelerate a cost-saving plan and eliminate about 3,000 positions, mainly in Financial & Risk. That comes in addition to the $100 million charge it took earlier this year to cover 1,000 job cuts. Including both rounds of cuts as well as jobs eliminated from divestitures and attrition, Thomson Reuters' workforce will be reduced about 9 percent.</p>
+
+        <p>"I think everybody in the world is trying to do more with less," Smith said. "I don't think the pressure on costs and keeping them under control is going to lessen. That said, what I hope is this strategy gives us a more predictable path in the future."</p>
+
+        <p>The company announced a plan to repurchase up to $1 billion of its shares by the end of 2014. During the third quarter, it bought back about 2.9 million shares for about $100 million.</p>
+
+        <p>Shares of Thomson Reuters have risen more than 25 percent over the past 12 months.</p>
+
+        <p>"We are going to be focusing on organic growth and less reliant on acquisitions," Smith said about the timing of the new buyback.</p>
+
+        <p>Thomson Reuters said that to date, it had sold more than 100,000 Eikon desktops, its flagship product for banking clients.</p>
+
+        <p>TAX & ACCOUNTING STRENGTH</p>
+
+        <p>Thomson Reuters said its third-quarter ongoing revenue rose 2 percent before currency changes to $3.07 billion on strength in its Tax & Accounting and Legal businesses.</p>
+
+        <p>Excluding special items, the company reported a profit of 48 cents per share, flat with a year earlier and beating Wall Street expectations by 4 cents.</p>
+
+        <p>Net income, which includes results from businesses in the year-earlier quarter that have since been divested, fell 37 percent to $283 million.</p>
+
+        <p>Tax & Accounting revenue jumped 10 percent, benefiting from a rise in subscriptions and strong performance across all of the business segments except Government.</p>
+
+        <p>The company also announced plans to make contributions of about $500 million to its U.S. and UK defined benefit pension plans this quarter.</p>
+
+        <div class="gray-header">Published</div>
+        <div>Oct 29, 2013</div>
+        <div class="gray-header">Source</div>
+        <div>CNBC</div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Tweets -->
+<div data-role="page" id="videos">
+    <div class="page-title">
+        <span class="title" style="margin-left:13%">Tweets</span>
+        <a class="right" href='javascript:getTweets();'>
+            <img src="img/refresh.png" style="width:25px"/>
+        </a>
+    </div>
+    <div id="tweetList" class="list">
+        
+    </div>
+    <div id="loader" style="visibility:hidden">
+        <img src="css/images/ajax-loader.gif" style="display: block;margin-left: auto; margin-right: auto;">
+    </div>
+
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" class="bar-style">
+                        <img class="bag-icon" src="img/user.png"/>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#articles" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/star.png"/>
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#videos" data-transition="slide" class="bar-style">
+                      <img class="bag-icon" src="img/twitter.png"/>
+                        Tweets
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('[data-position=fixed]').fixedtoolbar({ tapToggle:false});
+    var totalEl = 0;
+
+    currentVideoId = "";
+    function playSelectedVideo(id){
+        currentVideoId = id;
+        var video = document.getElementById(id);
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+
+    function stopCurrentVideo() {
+        var video = document.getElementById(currentVideoId);
+        video.pause();
+    }
+
+    function getTweets() {
+        $("#tweetList").html("");
+        $("#loader").css("visibility","visible");
+        var twitterAPI = "http://54.215.134.149:8080/data/getdata?type=SearchTweets&q='ThomsonReuters'";
+        $.getJSON( twitterAPI, {
+            format: "json"
+        }).done(function( data ) {
+            var tweets = JSON.parse(data.Error);
+            for(var i = 0; i < tweets.statuses.length; i++) {
+
+                var pp = Date.parse(tweets.statuses[i].created_at);
+                var newDate = new Date(pp);
+
+                $('#tweetList').append(
+                        "<div class='tbg'>"
+                        + "<img class='t-img' src='" + tweets.statuses[i].user.profile_image_url + "'/>"
+                        + "<div class='user'>" + tweets.statuses[i].user.name + "</div>"
+                        + "<div class='t-date'>" + newDate.getDate() + " " + getMonthName(newDate.getMonth()) + "</div>"
+                        + "<div class='tweet'>" + tweets.statuses[i].text + "</div><div style='clear:both'></div>"
+                        +"</div>");
+
+                if(i == 0){
+                    $('#news').append(
+                        "<div style='display:block'>"
+                        + "<img class='tt-img' src='" + tweets.statuses[i].user.profile_image_url + "'/>"
+                        + "<div class='t-user'>" + tweets.statuses[i].user.name + "</div>"
+                        + "<div class='tt-date'>" + newDate.getDate() + " " + getMonthName(newDate.getMonth()) + "</div>"
+                        + "<div class='t-tweet'>" + tweets.statuses[i].text + "</div><div style='clear:both'></div>"
+                        +"</div>");
+                }else{
+                    $('#news').append(
+                        "<div style='display:none'>"
+                        + "<img class='tt-img' src='" + tweets.statuses[i].user.profile_image_url + "'/>"
+                        + "<div class='t-user'>" + tweets.statuses[i].user.name + "</div>"
+                        + "<div class='tt-date'>" + newDate.getDate() + " " + getMonthName(newDate.getMonth()) + "</div>"
+                        + "<div class='t-tweet'>" + tweets.statuses[i].text + "</div><div style='clear:both'></div>"
+                        +"</div>");
+                }
+            }
+
+            totalEl = tweets.statuses.length;
+            var currentEl = 0;
+            $("#loader").css("visibility","hidden");
+
+            // Bind tweets to the home page
+            var tid = setInterval(function() {
+                $('#news').children().eq(currentEl).slideUp( "slow", function() {
+                    if(currentEl < totalEl - 1)
+                        currentEl += 1;
+                    else
+                        currentEl = 0;
+
+                    $('#news').children().eq(currentEl).fadeIn("slow");
+                });
+            }, 5000);
+        });
+    }
+
+    getTweets();
+
+    function getMonthName(month){
+        var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        for(var i=0; i< months.length; i++){
+            if(i == month){
+                return months[i];
+            }
+        }
+    }
+
+</script>
+
+    <script>
+        
+    </script>
+</body>
+</html>
